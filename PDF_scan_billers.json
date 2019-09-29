@@ -1,0 +1,14 @@
+{
+	"Comcast": {
+		"NameRegex": "Comcast",
+		"BeginDateRegex": "",
+		"EndDateRegex": "",
+		"AmountRegex": ""
+	},
+	"PRVEPA": {
+		"NameRegex": "PRVEPA",
+		"BeginDateRegex": "",
+		"EndDateRegex": "",
+		"AmountRegex": ""
+	}
+}
