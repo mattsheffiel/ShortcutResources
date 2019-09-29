@@ -1,14 +1,18 @@
 {
-	"Comcast": {
-		"NameRegex": "Comcast",
-		"BeginDateRegex": "",
-		"EndDateRegex": "",
-		"AmountRegex": ""
-	},
-	"PRVEPA": {
-		"NameRegex": "PRVEPA",
-		"BeginDateRegex": "",
-		"EndDateRegex": "",
-		"AmountRegex": ""
-	}
+	"Billers": [{
+			"DisplayName": "Comcast",
+			"NameRegex": "Comcast",
+			"BeginDateRegex": "",
+			"EndDateRegex": "",
+			"AmountRegex": ""
+		},
+		{
+			"DisplayName": "PRVEPA",
+			"NameRegex": "PRVEPA",
+			"BeginDateRegex": "",
+			"EndDateRegex": "",
+			"AmountRegex": ""
+		}
+	],
+	"Version": "0.1"
 }
