@@ -3,9 +3,9 @@
 	"Billers": {
 		"Comcast": {
 			"DisplayName": "Comcast",
-			"BeginDateRegex": "",
-			"EndDateRegex": "",
-			"AmountRegex": ""
+			"BeginDateRegex": "\n.{3} \d{2}, \d{4}(?= to)",
+			"EndDateRegex": "(?<=to ).{3} \d{2}, \d{4}(?=\n)",
+			"AmountRegex": "(?<=of )\$\d+\.\d{2}(?= will)"
 		},
 		"PRVEPA": {
 			"DisplayName": "PRVEPA",
